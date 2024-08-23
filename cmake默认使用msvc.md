@@ -39,3 +39,12 @@ cmake -G "MinGW Makefiles" ..
 
 使用这三个参数打印信息发现确实如此
 
+### 修正
+先删除build文件夹，原始的CMakeLists.txt，重建CMakeLists.txt，接着执行
+```bash
+mkdir build
+cd build
+cmake .. -G "MinGW Makefiles"
+cmake --build .
+```
+
