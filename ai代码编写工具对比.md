@@ -1,4 +1,7 @@
 - 暂时先马克一下
+- cursor:不付费的话，agent composer功能无法使用，等于纯代码补全和chat模式
+- void:实际上需要claude才能开启agent功能
+- roo code:这个插件不错，可以作为上面的替代
 
 ---
 
