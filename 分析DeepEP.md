@@ -2512,6 +2512,26 @@ DeepEP中的RDMA通信机制并没有直接占用GPU的计算单元，而是通�
 - https://www.cnblogs.com/CQzhangyu/p/18741625 
 
 
+- [GPU 进阶笔记（一）：高性能 GPU 服务器硬件拓扑与集群组网（2023）](https://arthurchiao.art/blog/gpu-advanced-notes-1-zh/) 
+- [混合专家模型（MoE）详解](https://huggingface.co/blog/zh/moe#什么是混合专家模型) 
+- [(1 封私信 / 5 条消息) DeepSeek 开源周第二天开源的项目 DeepEP，有哪些亮点值得关注？ - 知乎](https://www.zhihu.com/question/13299875692) 
+- [DualPipe 深入浅出：没有分布式训练基础也能看懂的 DualPipe 全方位讲解 - 知乎](https://zhuanlan.zhihu.com/p/27045651854) 
+- [deepseek-ai/DualPipe: A bidirectional pipeline parallelism algorithm for computation-communication overlap in V3/R1 training.](https://github.com/deepseek-ai/DualPipe?tab=readme-ov-file) 
+- [分布式并行训练 - 知乎](https://www.zhihu.com/column/c_1776920110550732800) 
+- [deepseek-ai/DeepGEMM: DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling](https://github.com/deepseek-ai/DeepGEMM) 
+- [在自建 Kubernetes 集群用 InfiniBand RDMA 运行 DeepSeek 分布式推理 - 知乎](https://zhuanlan.zhihu.com/p/1897271506645530541) 
+- [support.huawei.com/enterprise/en/doc/EDOC1100203339](https://support.huawei.com/enterprise/en/doc/EDOC1100203339) 
+- [ArthurChiao's Blog](https://arthurchiao.art/index.html) 
+- [NVSHMEM | NVIDIA Developer](https://developer.nvidia.com/nvshmem) 
+- [NVIDIA NVSHMEM - NVIDIA Docs](https://docs.nvidia.com/nvshmem/index.html) 
+- [白话科普 | DeepSeek开源界新王炸！DeepEP支持256路专家并行，MoE训练速度碾压传统方案-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2500071) 
+- [一起聊聊 Nvidia Hopper 新特性之 TMA - 极术社区 - 连接开发者与智能计算生态](https://aijishu.com/a/1060000000506483) 
+- [AI GPU 互连技术中的 NVLink、InfiniBand 和 RoCE - NADDOD Blog --- NVLink, InfiniBand, and RoCE in AI GPU Interconnect Technologies - NADDOD Blog](https://www.naddod.com/blog/nvlink-infiniband-and-roce-in-ai-gpu-interconnect-technologies) 
+- [NVLink vs InfiniBand: Comparative Analysis and Future Trends](https://www.fs.com/blog/nvlink-vs-infiniband-comparative-analysis-and-future-trends-1912.html) 
+- [How do NVLink, InfiniBand, and PCIe compare in terms of power consumption and heat generation? - Massed Compute](https://massedcompute.com/faq-answers/?question=How do NVLink, InfiniBand, and PCIe compare in terms of power consumption and heat generation?) 
+- [DeepSeek R1专家并行-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2499657) 
+- [中科类脑携手国际团队探索MoE推理新路径：专家并行（EP）架构优化实践](https://mp.weixin.qq.com/s?__biz=MzI5Nzk5NjYyOA==&mid=2247498152&idx=1&sn=ce11445dbe1189ea20bb9a742a9927fa&scene=0) 
+
 
 
 
