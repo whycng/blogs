@@ -18,7 +18,7 @@ int funT(const Container& input) {
 
 int main() { 
 
-    std::string str = "xiaomixunlianying";
+    std::string str = "a5sd456a4d56asd465as4d65s4dw864d8a9";
     std::vector<int> nums = {1, 2, 2, 3, 4, 5};
     std::list<char> chars = {'x', 'm', 'y', 'x', 'z', ' '};
     std::vector<std::string> words = {"water", "drink", "stom", "water"};
