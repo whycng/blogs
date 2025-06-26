@@ -1,6 +1,8 @@
 
 问题：Failed to create GLFW window  
 解决：export LIBGL_ALWAYS_INDIRECT=0
+永久生效： nano ~/.bashrc ，把export LIBGL_ALWAYS_INDIRECT=0 加入最后一行，source ~/.bashrc 生效 ，glxgears测试输出，看轮子框是否出现
+实际上，ffmpeg使用ffplay的时候也会用到这里
 ```bash
 xyy@kelijiuxiangquzhayu:~/workspace/renderdoc_1.36/bin$ export LIBGL_ALWAYS_SOFTWARE=1
 rt EGLxyy@kelijiuxiangquzhayu:~/workspace/renderdoc_1.36/bin$ export EGL_PLATFORM=surfaceless
@@ -58,3 +60,9 @@ xyy@kelijiuxiangquzhayu:~/workspace/renderdoc-triangle$ glxinfo | grep "OpenGL v
 OpenGL version string: 4.1 (Compatibility Profile) Mesa 24.2.8-1ubuntu1~24.04.1
 xyy@kelijiuxiangquzhayu:~/workspace/renderdoc-triangle$ ./renderdoc-triangle
 ```
+
+https://blog.csdn.net/Strengthennn/article/details/133197601 -- 设置 LIBGL_ALWAYS_INDIRECT=0
+https://www.cnblogs.com/kozumi/p/18584921 
+https://niconiconi.fun/2022/12/05/wsl-cuda-ffmpeg/ 
+https://github.com/Genymobile/scrcpy/issues/584  -- Try to run glxgears. Do you have the same error? 
+
