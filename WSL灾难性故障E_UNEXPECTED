@@ -1,0 +1,26 @@
+启动Ubuntu,发现 灾难性故障
+错误代码: Wsl/Service/E_UNEXPECTED 
+
+wsl --shutdown
+wsl -d Ubuntu 失败
+
+官方修复教程 https://learn.microsoft.com/en-us/windows/wsl/disk-space#how-to-repair-a-vhd-mounting-error  
+
+想起来之前卸载了virtual box没重启
+
+register当前Ubuntu从备份再拉一份，安装过程仍是同样的错误
+
+看一下日志，硬件级错误
+
+```
+[    0.828957] mce: [Hardware Error]: CPU 0: Machine Check Exception: 4 Bank 0: b200000080060001
+[    0.828964] mce: [Hardware Error]: TSC a2311ae7 
+[    0.828965] mce: [Hardware Error]: PROCESSOR 0:906a3 TIME 1751879208 SOCKET 0 APIC 0 microcode ffffffff
+[    0.828967] mce: [Hardware Error]: Run the above through 'mcelog --ascii'
+[    0.828968] mce: [Hardware Error]: Machine check: Processor context corrupt
+[    0.828969] Kernel panic - not syncing: Fatal machine check
+[    0.829988] Kernel Offset: 0x34000000 from 0xffffffff81000000 (relocation range: 0xffffffff80000000-0xffffffffbfffffff)
+
+```
+
+重启完事
